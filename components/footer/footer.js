@@ -10,8 +10,8 @@ export default function Footer() {
                 </div>
                 <div className={styles.info}>
                     <p>Contact us: </p>
-                    <p>Email: RandoSando@recipes.co.za</p>
-                    <p>Phone: +1 (123) 456-7890</p>
+                    <p>Email: info.mmsdynamic@gmail.com</p>
+                    <p>Phone: +27 (69) 132-2059</p>
 
                 </div>
                 <div className="{styles.socialMedia}">
