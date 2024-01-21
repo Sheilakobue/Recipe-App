@@ -1,0 +1,68 @@
+/* Original styles for larger screens */
+.RecipeContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #343131;
+  color: #fff8f8;
+  padding: 50px;
+  background-image: url('/preview.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150vh;
+  position: relative;
+}
+
+.leftColumn {
+  flex: 1;
+  border: solid;
+  background-color: rgba(7, 67, 27, 0.45);
+  border-radius: 90px;
+  padding: 10px;
+  padding-left: 50px;
+  margin-top: 10px;
+  text-align: left;
+  height: 130vh;
+}
+
+.rightColumn {
+  flex: 2;
+  padding: 10px;
+  background-color: rgba(5, 105, 13, 0.344);
+  height: 135vh;
+  border-radius: 10px;
+  text-align: left;
+}
+
+/* New styles for mobile view */
+@media (max-width: 768px) {
+  .RecipeContainer {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .leftColumn,
+  .rightColumn {
+    flex: 1;
+    height: auto;
+    margin-top: 10px;
+  }
+
+  .leftColumn {
+    border-radius: 0;
+    padding: 10px;
+    text-align: left;
+  }
+
+  .rightColumn {
+    border-radius: 0;
+    padding: 10px;
+  }
+
+  .FavoritesHeart {
+    padding-left: 0;
+    padding-top: 10px;
+    text-align: left;
+  }
+}
