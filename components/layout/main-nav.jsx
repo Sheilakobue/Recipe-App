@@ -43,8 +43,8 @@ const MainNav = () => {
       <div className={classes.projectIcon}>
         <Link className={classes.logo} href="/" title="Home">
           <Image
-            src="/groupb_logo.png"
-            alt="GroupB Logo"
+            src="/INTERNET CAFE LOGO.jpg"
+            alt="MMS Logo"
             width={100}
             height={100}
           />
