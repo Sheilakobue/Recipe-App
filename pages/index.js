@@ -25,7 +25,7 @@ const Home = ({ hasEnvFile, hasKey }) => {
   return (
     <Fragment>
       <Head>
-        <title>Jahimost-V</title>
+        <title>MMS Dynamic Recipe App</title>
         <meta
           name="description"
           content="Explore food from around the world..."
@@ -57,7 +57,7 @@ const Home = ({ hasEnvFile, hasKey }) => {
             color: "white",
           }}
         >
-            <h1 className="landingTitle">Rando Sando</h1>
+            <h1 className="landingTitle">MMS Dynamic Recipe App</h1>
           <div className="landingContent">
           <h2 className="title">Explore Food From Around the World!</h2>
           <p className="subtitle">
