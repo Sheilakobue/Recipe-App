@@ -42,7 +42,7 @@ const Home = ({ hasEnvFile, hasKey }) => {
         <div
           className="mainContent"
           style={{
-            backgroundImage: `url('/landing.jpg')`,
+            backgroundImage: `url('/preview.jpg')`,
             backgroundSize: "cover",
             backgroundPosition: "center center",
             backgroundRepeat: "no-repeat",

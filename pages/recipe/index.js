@@ -3,6 +3,7 @@ import RecipeList from '@/components/recipes/recipe-list';
 import ArrowIpIcon from '@/components/icons&Buttons/arrow-up-icon';
 import Sort from "../../components/recipes/sort";
 import Footer from '@/components/footer/footer';
+import MainNav from '@/components/layout/main-nav';
 
 export default function AllRecipes({ data, _sort }) {
   const [sortedData, setSortedData] = useState(data);
@@ -32,6 +33,7 @@ export default function AllRecipes({ data, _sort }) {
 
   return (
     <div>
+      <MainNav/>
       <Sort onSort={handleSort} />
       
       {loading ? (
