@@ -68,7 +68,8 @@ h3 {
 
 .landingTitle {
   position: relative;
-  top: 0%;
+  top: 75%;
+  right: 12%;
   color: rgb(167, 78, 5);
   font: 2.1em Oswald;
   padding-left: 50vw;
@@ -81,7 +82,7 @@ a {
 }
 
 .btn {
-  position:fixed;
+  
   font: inherit;
   cursor: pointer;
   left: 30%;
@@ -99,7 +100,7 @@ a {
   box-shadow: 5px 5px 8px #c9c3c3, 0.8;
   justify-content: center;
   align-items: center;
-  font-size: 30px;
+  font-size: 10px;
   padding: 5px 8px;
 }
 
