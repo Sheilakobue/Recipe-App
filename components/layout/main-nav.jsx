@@ -43,7 +43,7 @@ const MainNav = () => {
       <div className={classes.projectIcon}>
         <Link className={classes.logo} href="/" title="Home">
           <Image
-            src="/INTERNET CAFE LOGO.jpg"
+            src="/MMS DYNAMIC Logo.png"
             alt="MMS Logo"
             width={100}
             height={100}
